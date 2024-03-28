@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+          body{
+            margin: 0;
+            padding: 0;
+            background-position: fixed ;
+          background-image: url("traineer.png");
+            background-repeat: no-repeat;
+           
+            background-size: cover ;
+            height:100vh;
+            width: 100%; 
+       
+          }
+        
+        
+        .main{
+          font-size: 60px;
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: aqua;
+         
+       
+}
+#coach{
+  color: yellow;
+}
+    
+       .about{
+       
+      overflow: hidden;
+        color: rgb(213, 220, 219);
+        font-size: 30px;
+       }
+       .row{
+        width: 70%;
+       
+      }
+     
+       .card{
+        border: 1px solid white;
+        border-radius: 5%;
+        width: 230px;
+        
+    transition: all 5s, transform .4s, box-shadow .4s;
+
+        background-color:black;
+    display: inline-block;
+        
+      }
+  
+      .card:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 20px #f8f3f3;
+    
+  }
+     
+      .btn{
+        width: 60%;
+        
+        
+        margin-left: 18%;
+        
+      }
+      .btn:hover{
+        background-color: blue;
+          
+   
+      }
+      .card-title{
+        font-size: 25px;
+        color: white;
+      }
+      .card-text{
+        font-size: 19px;
+        color: aliceblue;
+
+      }
+      a{
+        text-decoration: none;
+        font-size: 15px;
+        color: rgb(23, 90, 223);
+        
+      }
+      .card-img-top{
+        height: 200px;
+        width: 230px;
+        border-top-right-radius: 5%;
+        border-top-left-radius: 5%;
+        border: 1px solid white;
+        border-bottom: none;
+      }
+    
+     
+    </style>
+</head>
+<body> 
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo.jpeg" alt="img" width="38"
+          height="40">
+         Powerhouse Gym and Fitness Club</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar"
+        aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+        aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Our Gym</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="gym project.html">Home</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Features
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark">
+                
+                <li><a class="dropdown-item" href="membership.html">Offer</a></li>
+              
+                <li><a class="dropdown-item" href="Contact.html">Contact</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Trainers.html">Meet Your Trainer</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav><br> <br><br>
+
+    <section class="container"><br>
+      <h1  class="main" align="center">
+            <span id="coach">O</span>ur Fitness Coaches
+    </h1> <br>   
+    <h2 class="about" align="center">
+      Join our fitness sessions led by our <br> experienced   and dedicated gym trainer.   
+    </h2> 
+ 
+    <br> 
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 card1">
+            <img src="Punit Kaushal 2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Punit Kaushal</h5>
+                <p class="card-text">Fitness Coach</p>
+            </div>
+            
+            <button class="btn " type="button" ><a href="mailto:punitkaushal59@gmail.com"><img src="gmail_button_icon_151848.png" alt="" height="40" width="100"></a></button><br>
+          
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 card2">
+            <img src="Raj fitness.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bhupendra </h5>
+                <p class="card-text">Cardio Specialist</p>
+            </div>
+             
+                <button class="btn " type="button" ><a href="mailto:Bhupendernamdev15@gamil.com"><img src="gmail_button_icon_151848.png" alt="" height="40" width="100"></a></button><br>
+            
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 card3">
+            <img src="aman2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Aman Kaushal</h5>
+                <p class="card-text">Body Building </p>
+            </div>
+            
+            <button class="btn " type="button" ><a href="mailto:Amandashing725@email.com"><img src="gmail_button_icon_151848.png" alt="" height="40" width="100"></a></button><br>
+          
+          </div>
+        </div>
+      </div>
+    </section>
+      
+</body>
+</html>
